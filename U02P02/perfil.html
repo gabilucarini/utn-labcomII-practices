@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web - Login</title>
+</head>
+<body>
+    <h1>Crear perfil de usuario</h1>
+    <form action="">
+        <input type="text" readonly placeholder="ESTUDIANTE"><br>
+        <label for="user">Ingrese nombre y contraseña</label>
+        <input type="text"><br>
+        <label for="email">Ingrese Email:</label>
+        <input type="email"><br>
+        <label for="edad">Ingrese Edad:</label>
+        <input type="text"><br>
+        <label for="nacionalidad">Ingrese Nacionalidad:</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="Argentina">Argentina</option>
+            <option value="España">España</option>
+        </select><br>
+        <label for="trabajo">Ingrese condicion de trabajo:</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">en búsqueda laboral</option>
+            <option value="parttime">trabajo part time</option>
+            <option value="fulltime">trabajo fulltime</option>
+        </select><br>
+        <fieldset>
+            <legend>Gusto Personales:</legend>
+            <label for="">Comidas preferidas</label><br>
+            <input type="checkbox">Pizza<br>
+            <input type="checkbox">Hamburguesa<br>
+            <input type="checkbox">Papas Fritas<br>
+            <label for="">Gusto musicales:</label>
+            <input type="text">
+        </fieldset>
+        <label for="record">Recordar datos del usuario?</label>
+        <input type="checkbox"><br>
+        <input type="submit"><br>
+    </form>
+</body>
+</html>
